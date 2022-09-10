@@ -1,39 +1,38 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentalista</title>
-  <!-- CSS FILE -->
-   <link rel="stylesheet" href="https://iamsandralima.github.io/assets/style.css">
+  <title>Conversor de moedas</title>
+
+  <!--Favicon-->
+  <link rel="icon" href="https://iamsandralima.github.io/assets/fav.dollar.png" type="image/png">
+
+  <!--CSS File-->
+  <link rel="stylesheet" type="text/css" href="https://iamsandralima.github.io/assets/style.css">
 </head>
 <body>
-    <section>
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d42297112635895.60186d2d59163.gif" alt="" class="img-ilustra">
+  <!--box geral-->
+  <div class="container">
+    <div class="box">
+      <h1><strong>CONVERSOR DE MOEDAS</strong></h1>
+   <span class="subtitle">Cotação do dólar</span>
+   <input id="valDolar" class="primaryInput" type="number" placeholder="Ex: 5,50"/>
+   <span class="subtitle">Quantidade de dólares</span>
+   <input id="myDolars" class="primaryInput" type="number" placeholder="Ex:  10,00"/>
+   <button class="button"role="button" onclick="convercao()">CONVERTER</button>
+   <p id="result">O Resultado irá aparecer aqui</p>
+ </div>
 
-        <container class="number-container">
-        <div class="page-title">
-          <h1>✧ Mentalista ✧ </h1>
-            <p class="page-subtitle">
-              Tente descobrir o número de  0 a 10!
-            </p>
-            <input placeholder="Digite Aqui" type="number" class="primaryInput" id="valor"/><br>
-            <button class="button" role="button" type="submit" onclick="Chutar()">Chutar</button>
-            <h2 class="resultado" id="resultado"></h2>
-          </div>
-        </div>
-    </section>
-  </container>
-  <a href="https://alura.com.br/" target="_blank">
-    <img src="https://iamsandralima.github.io/assets/alura-logo.webp" alt="" class="alura-logo">
+  <!--Footer-->
+ <footer>
+  <div class="divider"></div>
+  <p class="footerCopy"> &#169; Sandra Lima 2022</p>
+</footer>
 
-    <footer>
-      <div class="divider"></div>
-    </footer>
-
-  <!-- SCRIPT FILE -->
-  <script defer src="https://iamsandralima.github.io/js/script.js"></script>
+  <!--Scripit File-->
+  <script type="text/javascript" src="https://iamsandralima.github.io/js/script.js"></script> 
 </body>
 </html>
